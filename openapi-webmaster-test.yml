@@ -5,3 +5,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql:///day06?useUnicode=true&characterEncoding=utf8
     type: com.alibaba.druid.pool.DruidDataSource
+      #写连接rabbitmq的地址
+  rabbitmq:
+    host: rabbitmq.qfjava.cn
+    port: 8800
